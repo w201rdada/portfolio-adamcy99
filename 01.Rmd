@@ -4,20 +4,21 @@
 
 yaba, daba, do
 
-## The Focus on Now Paradigm
+## Refocusing the Paradigm
 
-Specific types of electrical defects can have very specific characteristics. We are stuck in a paradigm where we only care about the current electrical defect. Things we've seen before are either forgotten, or tied to certain engineers who may not be with the company forever. Also we have no way to anticipate a recurring problem in the future.
+When fabricating semiconductors, an engineer will encounter specific characteristics that define a certain electrical defect. As more of these characteristics are discovered, they begin to paint a picture of what the defect is, just as symptoms give doctors an idea of what is ailing the patient. The microelectronics industry is currently reliant on a handful of engineers to be able to see such symptoms in the electrical data and proceed to diagnose the electrical defect. However, this is a paradigm that is too focused in the present. The symptoms of past electrical defects are either forgotten, or tied to certain engineers who may not be with the company forever. There is also no way to use current electrical data to anticipate whether a past defect is in the process of reemerging. With data sciene and machine learning, we can shift the current inefficient paradigm, into one where electrical defects leave behind a history of their symptoms that can help with future diagnoses.
 
-## Machine Learning in Improving the Process
+ It will also enable us to anticipate a recuring problem in the future.
 
-We can use machine learning to to train an algorithm to identify each electrical defect that we've currently established a good understanding of. This can help keep track and label each new wafer that has the same defect. 
+## Harnessing Machine Learning
+
+The first step is to harness machine learning. After an engineer has developed a good grasp of the symptoms of a certain defect, such as: cells failing as adjacent vertical pairs on a swath streching vertically across the wafer, they can put these symptoms into a classifier to try and correclty identify that electrical defect. The classifier will look at electrical data of each wafer that gets processed and try to label them as having the defect or not. During the training period, the expert engineers will look at those wafers to correct the classifier if it made any mistakes. This will help the classifier adjust it's parameters and figure out the best way to identify this defect. The classifier might even find other correlating symptoms between these wafers that the engineers were not aware of, which may come in handy when trying to fix the process flow. After it's been sufficiently trained, the classifier can look back at older wafers to label any that the engineers may have missed. Engineers can datamine this list of unhealthy wafers against a healthy sample to figure out where in the process flow is causing these defects. Once this defect has been fixed, there will be a historical record of it in case it re-emerges. Like a healthcare database for diseases, engineers can input a list of symptoms into the system and then come back with possible defects. This will be extremely beneficial even if it's not the exact same defect because it'll provide clues as to where to start looking.
 
 <!-- ...or include images directly from the web. Cite your sources! -->
 ```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
 knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
 ```
 
-
 ## A More Efficient System
 
-Hopefully the solution will result in a more efficient system all around. Allow engineers to do their jobs better and faster as well as developing a catalog of all defects seen and what they look like in terms of data. Limitations to this is that you have to continually teach the system new defects that appear and you have to consider how much space this all takes.
+Hopefully the solution will result in a more efficient system all around. Allow engineers to do their jobs better and faster as well as developing a catalog of all defects seen and what they look like in terms of data. This system, however, comes with limitations. Completely revamping the current way to do things is not easy and definitely takes time and trainging. Furthermore, the idea is to continually teach the system new defects that appear and store them indefinitely. All this data combined with the massive amounts of electrical data that is already being collected will take a lot of server space. Big companies like IBM may be able to support this implementation, but without proof of concept of how much money this can save, stakeholders may be hesitant about implementation. 
