@@ -14,8 +14,10 @@ The first step is to harness machine learning. After an engineer has developed a
 
 <!-- ...or include images directly from the web. Cite your sources! -->
 ```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
+knitr::include_graphics('https://www.mckinsey.com/~/media/McKinsey/Industries/High%20Tech/Our%20Insights/Reimagining%20fabs%20Advanced%20analytics%20in%20semiconductor%20manufacturing/PNG_Reimaging_fabs_ex.ashx')
 ```
+
+[@burkacky_reimagining_nodate]
 
 ## A More Efficient System
 
