@@ -1,4 +1,4 @@
-# Fabricating a Smarter Fab {#Machine Learning for Semiconductors}
+# Fabricating a Smarter Fab {#Machine-Learning-for-Semiconductors}
 
 #### Keywords {-}
 
