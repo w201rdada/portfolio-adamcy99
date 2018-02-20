@@ -6,11 +6,11 @@ yaba, daba, do
 
 ## Formation of Potholes.
 
-Talk about how potholes are formed and how having potholes is a problem. How would it benefit the government officail in the area? Good roads keep people happy.
+Talk about how potholes are formed and how having potholes is a problem. How would it benefit the government officail in the area? Good roads keep people happy. The client is are the people, the day to day drivers on the roads of cold areas. Also the government official who can utilize data science for pre-emptively filling in potholes before they worsen. People would report potholes that have gotten really bad when they affect their day to day driving. But by then it is already too late, the hole is already there inconveniencing everyone. The goal is to premptively fill in potholes before they get too bad.
 
 ## Sensors, sensors, sensors!
 
-What type of sensors do we need? Temperature, humidity, rain, how often do the roads get wet. How much load is put onto the road (how much traffic goes through.) How many trucks and buses? Keep track of when the road was last fixed. Rank the roads in terms of priority based on the danger of it developing potholes, and also how much traffic goes through there. The idea is to set up a system to determine which roads are due for a pothole inspection. 
+What type of sensors do we need? Temperature, humidity, rain, how often do the roads get wet. How much load is put onto the road (how much traffic goes through.) How many trucks and buses? Keep track of when the road was last fixed. Rank the roads in terms of priority based on the danger of it developing potholes, and also how much traffic goes through there. The idea is to set up a system to determine which roads are due for a pothole inspection. Then visit theses roads and fill in any small potholes or cracks that are forming. The idea is to only check when you have to based on the data, but check before the potholes that form get too big and annoying.
 
 
 ```{r experimental,echo=F,results='asis',eval=F}
