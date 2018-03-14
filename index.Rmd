@@ -29,7 +29,7 @@ Hello World! Welcome to my RDADA page. Please take a look around and enjoy yours
 <p>
 ```{r introvideo,echo=FALSE,fig.cap='Hello World!',fig.align='center'}
 knitr::include_url('https://drive.google.com/file/d/1r6LYqj1zNwSJp0zHYVw0lyvuJ6SyOPry/preview')
-
+```
 ### Abstract of my first cool idea {-}
 
 (ref:abs1) While working for IBM in semiconductor fabrication, I realized there is no great way to utilize all the patterns we, as engineers, accumulate when trying to figure out how an electrical defect is caused. Enter machine learning. By putting these symptoms we've observed from the electrical data, we can implement machine learning algorithms to help us label past and future wafers with this specific electrical defect. Yield is king when it comes to microelectronics, and electrical defects are the never-ending pests we must rid from our kingdom.
