@@ -23,28 +23,27 @@ readLines('https://www.zotero.org/api/users/4669138/items/top?limit=25&format=bi
 knitr::include_graphics('img/hello_world1.png')
 ```
 
-Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland direct trade, XOXO odio gochujang banjo deep v sustainable.  Sint  jianbing DIY humblebrag heirloom exercitation ennui fanny pack.  Dolore small batch lomo, godard slow-carb odio exercitation organic cred cray la croix vinyl nisi hot chicken.  Gentrify schlitz stumptown fam, cray hoodie excepteur  hammock kinfolk 8-bit hell of plaid.  Helvetica hashtag pinterest typewriter, tbh vape vero farm-to-table.  Laboris  bitters aliqua small batch.
+Hello World! Welcome to my RDADA page. Please take a look around and enjoy yourself.
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
 ```{r introvideo,echo=FALSE,fig.cap='Hello World!',fig.align='center'}
-knitr::include_url('https://drive.google.com/open?id=1r6LYqj1zNwSJp0zHYVw0lyvuJ6SyOPry')
-```
+knitr::include_url('https://drive.google.com/file/d/1r6LYqj1zNwSJp0zHYVw0lyvuJ6SyOPry/preview')
 
 ### Abstract of my first cool idea {-}
 
-Pop-up occupy labore, pug tofu nisi franzen YOLO tilde tumblr deep v nulla  aliqua.  Sapiente stumptown et lo-fi art party.  Eu  snackwave glossier, poutine crucifix tattooed labore thundercats hexagon tempor brunch single-origin coffee synth four loko.  Velit  beard ex etsy migas, tempor hashtag.  Live-edge fap yr food truck, heirloom snackwave tempor laborum green juice man bun selvage sriracha gastropub.  Before they sold out incididunt godard cupidatat  exercitation street art health goth ullamco, flannel dolore kombucha bespoke.  Pok pok tilde mixtape, magna swag iceland tote bag gentrify dolor  delectus.
+(ref:abs1) While working for IBM in semiconductor fabrication, I realized there is no great way to utilize all the patterns we, as engineers, accumulate when trying to figure out how an electrical defect is caused. Enter machine learning. By putting these symptoms we've observed from the electrical data, we can implement machine learning algorithms to help us label past and future wafers with this specific electrical defect. Yield is king when it comes to microelectronics, and electrical defects are the never-ending pests we must rid from our kingdom.
+
+(ref:abs1)
 
 ### Abstract of my second cool idea {-}
 
-Vero dolor  franzen letterpress.  Taxidermy pork belly messenger bag, deserunt  aliqua irure  photo booth neutra banh mi fanny pack.  Butcher fam heirloom marfa.  Tilde reprehenderit  snackwave tempor.  Qui  pop-up kitsch dolor.  Crucifix consectetur culpa  lumbersexual salvia exercitation small batch.  Pop-up duis  id  semiotics before they sold out kombucha raclette, twee selvage pitchfork.
-  
-### Abstract of my third cool idea {-}
+(ref:abs2) How many times do you come across a pothole in the middle of a road that you have to consciously avoid. If you fail to avoid the pothole, you suffer an excruciating bump and spend the next 5 minutes hoping you didn't damage your car. Well I believe the current system in fixing potholes after they grow to a large and annoying size is flawed. There can be so many benefits from predicting where potholes will form, sending a surveillance team out, and filling that pothole while it's still small or merely just cracks in the road. By implementing a predictive model driven by data of key variables such as snow fall and traffic weight, I believe we can prevent most potholes from plaguing the innocent driver.
 
-Activated charcoal succulents ex, pop-up minim neutra pork belly nulla  helvetica semiotics dolor  magna jianbing.  Asymmetrical franzen humblebrag, venmo kale chips offal velit  distillery blog copper mug exercitation pariatur helvetica tacos officia.  Trust fund etsy commodo umami excepteur  lo-fi, locavore humblebrag dolore artisan cliche sustainable chartreuse.  Mustache pork belly kitsch blue bottle jean shorts, intelligentsia hammock consequat hoodie heirloom single-origin coffee.  Godard nulla  yr, cray taxidermy vice pug hashtag ad eiusmod subway tile flexitarian.  Tofu magna laboris  thundercats neutra, mumblecore truffaut small batch hashtag chillwave listicle ramps eiusmod selfies meh.  Bushwick butcher cupidatat  hella organic.
+(ref:abs2)
 
 ## About the author {-}
 
-Sustainable aute  gochujang, messenger bag vero dolor  blog pork belly knausgaard.  Tacos brooklyn lumbersexual keytar, literally chambray iceland street art pickled master cleanse in  roof party activated charcoal jean shorts craft beer.  Semiotics tempor enamel pin nesciunt, aliquip live-edge keytar yr street art waistcoat cray everyday carry eu  sint  pariatur.  Aliquip anim  godard leggings, flexitarian direct trade  humblebrag.  Non  ennui fashion axe nesciunt, poke af kinfolk direct trade  franzen banh mi.  Craft beer laborum crucifix pork belly retro, health goth tacos est  godard four dollar toast tousled bushwick exercitation nihil normcore.  Semiotics meggings pok pok church-key whatever art party, truffaut franzen poke.
+Adam works as an electrical engineer for IBM after obtaining a bachelors from the University of Illinois at Urbana Champaign and a masters from the Georgia Institute of Technology (both in the field of electrical engineering). While working for IBM, he quickly realized how important it is to be able to deal with large amounts of data in the tech industry. Upon reflection, it became clear that data science is a very versatile tool that can be applied to any type of job, which motivated Adam to pursue a Master of Information and Data Science degree from UC Berkeley. He has a special interest in machine learning and hopes to pursue that field in the future. Adam is a third culture kid, being a US citizen of Taiwanese heritage but spending most of his life growing up in Thailand. He has a twin brother and enjoys watching the NBA.
 
 *Updated: `r Sys.Date()`*
